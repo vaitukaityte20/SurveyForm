@@ -1,0 +1,99 @@
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #535366;
+  color: #f5f6f7;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg);
+}
+h1 {
+  margin: 1em auto;
+  text-align: center;
+}
+p {
+  margin: 0.5em auto 1.5em auto;
+  text-align: center;
+}
+form {
+  width: 40vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  background-color: rgba(29, 28, 34, 90%);
+  padding: 0px 30px 0px 30px;
+  max-height: 95%rem;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 2px solid rgb(10, 3, 26);
+}
+label {
+  display: block;
+  margin: 0.3rem 0;
+  
+}
+.checkboxes input {
+  vertical-align: middle;
+}
+.checkboxes label span {
+  vertical-align: middle;
+} 
+.checkboxes label {
+  display: inline-block;
+  padding-right: 10px;
+  white-space: nowrap;
+}
+
+input,
+textarea,
+select {
+  margin: 5px 0 7px 0;
+  width: 100%;
+  min-height: 2em;
+}
+input, textarea {
+  background-color: white;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0.7em;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1.5em auto;
+  height: 2em;
+  font-size: 1rem;
+  background-color: #08080f;
+  border-color: rgb(87, 66, 104);
+  min-width: 300px;
+}
+input[type="submit"]:hover {
+    background-color:#7b16a3;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+.options label{
+   display: inline-block;
+   padding-right: 10px;
+   white-space: nowrap;
+}
+.options label span {
+    vertical-align: middle;
+} 
+
+.options input {
+    vertical-align: middle;
+}

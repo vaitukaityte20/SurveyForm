@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  <title>SleepingSurvey</title>
+  </head>
+  <body>
+    <h1 id="title">Sleep Survey Form</h1>
+    <p id="description">A survey about quality & habits of your sleep</p>
+    <form id="survey-form">
+      <fieldset>
+      <label for="name" id="name-label">First name:<input type="text" id="name" placeholder="Your name" required></label>
+      <label for="email" id="email-label">Email address:<input type="email" id="email" placeholder="Your email" required></label>
+      <label for="hours" id="hours-label">Hours of sleep:<input type="number" id="hours" min="1" max="20" placeholder="Usual number of hours per day"></label>
+      </fieldset>
+      <fieldset>
+       <label for="dropdown">What negatively impacts night rest the most?
+      <select id="dropdown">
+        <option value="">Select most annoying</option>
+        <option value="Lights">Lights</option>
+        <option value="Sounds">Outside sounds</option>
+        <option value="Thoughts">Thoughts about your ex</option>
+        <option value="Sharing">Sharing bed with your pet</option>
+        <option value="Snoring">Partner snoring</option>
+      </select></label>
+      </fieldset>
+      <fieldset style="padding-top: 5px;">
+        <legend style="padding-top: 40px; font-weight: bold;">Do you use your phone before bed? (required)</legend>
+        <div class="options">
+      <label for="always"><input type="radio" name="radio-button" id="always" value="Always" class="inline"><span>Always</span></label>
+      <label for="sometimes"><input type="radio" name="radio-button" id="sometimes" value="Sometimes" class="inline"><span>Sometimes</span></label>
+      <label for="never"><input type="radio" name="radio-button" id="never" value="Never" class="inline"><span>Never</span></label>
+        </div>
+    </fieldset>
+      <fieldset style="padding-top: 5px;">
+       <legend style="padding-top: 40px; font-weight: bold;">You sleep best with your:</legend>
+       <div class="checkboxes">
+      <label for="alone"><input type="checkbox" id="alone" value="alone" class="inline"><span>Alone</span></label>
+      <label for="mom"><input type="checkbox" id="mom" value="mom" class="inline"><span>Mom</span></label>
+      <label for="friend"><input type="checkbox" id="friend" value="friend" class="inline"><span>Best friend</span></label>
+      <label for="lover"><input type="checkbox" id="lover" value="lover" class="inline"><span>Lover</span></label>
+      <label for="cat"><input type="checkbox" id="cat" value="cat" class="inline"><span>Cat/Dog</span></label>
+      <label for="teddy"><input type="checkbox" id="teddy" value="teddy" class="inline"><span>Teddy bear</span></label>
+       </div>
+      </fieldset>
+      <fieldset>
+        <label for="dreams">The last dream you had: <textarea id="dreams" name="dreams" placeholder="Tell us everything what happened." rows="4" cols="30"></textarea></label>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

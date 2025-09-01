@@ -74,8 +74,10 @@ input[type="submit"] {
   margin: 1.5em auto;
   height: 2em;
   font-size: 1rem;
-  background-color: #08080f;
-  border-color: rgb(87, 66, 104);
+  background-color: #3c175f;
+  color: white;
+  font-weight: bold;
+  border: 1px solid rgb(255, 255, 255);
   min-width: 300px;
 }
 input[type="submit"]:hover {
